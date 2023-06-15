@@ -1,0 +1,5 @@
+En esta clase seguiremos construyendo nuestro proyecto PlatziVentas haciéndolo un poco más interesante y 
+conoceremos un poco sobre las Estructuras condicionales.
+
+En Python es importante importante la indentación, de esa manera identifica donde empieza y termina un bloque 
+de código sin necesidad de llaves {} como en otros lenguajes.

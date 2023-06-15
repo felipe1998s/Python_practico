@@ -1,0 +1,55 @@
+En el contexto de la programación las funciones son simplemente una agrupación de enunciados(statments) 
+que tienen un nombre. Una función tiene un nombre, debe ser descriptivo, puede tener parámetros y puede 
+regresar un valor después que se generó el cómputo.
+
+Python es un lenguaje que se conoce como batteries include(baterías incluidas) esto significa que tiene 
+una librería estándar con muchas funciones y librerías.
+
+Para declarar funciones que no son las globales, las built-in functions, necesitamos importar un módulo.
+
+Con el keyword def declaramos una función.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Ejemplos:
+consola - Python -->
+
+>>> type(1)
+<class 'int'>
+>>> un_entero = int('5')
+>>> type(un_entero)
+<class 'int'>
+>>> a = bool('a')
+>>> type(a)
+<class 'bool'>
+>>> print(a)
+True
+>>> a = bool('')
+>>> print(a)
+False
+>>> a = float(3)
+>>> print(a)
+3.0
+>>> type(a)
+<class 'float'>
+-----------------------------------------------------------------------------------------------------
+Declarando funciones:
+
+>>> def suma_de_dos_numeros(x,y):       return x + y 
+... 
+>>> suma_de_dos_numeros(5,3)
+8
+>>> type(suma_de_dos_numeros)
+<class 'function'>
+>>>
+-------------------------------------------------------------------------------------------
+asignando valor de retorno de una funcion a una vaiable:
+
+>>> suma_total = suma_de_dos_numeros(5,3)
+>>> print(suma_total)
+8
+>>> type(suma_total)
+<class 'int'>
+>>> 
+
+-----------------------------------------------------------------------------------------

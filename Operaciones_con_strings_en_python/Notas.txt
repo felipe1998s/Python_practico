@@ -1,0 +1,48 @@
+Los strings tienen varios métodos que nosotros podemos utilizar.
+
+upper: convierte todo el string a mayúsculas
+lower: convierte todo el string a minúsculas
+find: encuentra el indice en donde existe un patrón que nosotros definimos
+startswith: significa que empieza con algún patrón.
+endswith: significa que termina con algún patrón
+capitalize: coloca la primera letra en mayúscula y el resto en minúscula
+in y not in nos permite saber con cualquier secuencia sin una subsecuencia o substrings se encuentra adentro de la
+ secuencia mayor.
+
+dir: Nos dice todos los métodos que podemos utilizar dentro de un objeto.
+help: nos imprime en pantalla el docstrings o comentario de ayuda o instrucciones que posee la función. Casi todas las
+funciones en Python las tienen.
+
+Ejemplo en consola - python:
+
+>>> platzi = 'platzi'
+>>> dir(platzi) <-- metodos que viven en platzi <--- 
+
+['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', 
+'__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', 
+'__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', 
+'__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', 
+'__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 
+'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 
+'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 
+'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 
+'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> 
+
+Por ejemplo vamos a utilizar el metodo .capitalize()
+
+>>> platzi.capitalize()
+'Platzi'
+
+Help es un metodo global de python que nos ayuda a saber para que sirve un metodo de manera local (por consola)
+
+def my_function():                                            """
+...     """Este es un texto de ayuda""" <--- documentamos nuestra funcion
+... 
+
+>>> help(my_function)   
+Help on function my_function in module __main__:
+
+my_function()
+    Este es un texto de ayuda <-- obtenemos la nota que dejamos como documetacion de nuestra funcion creada anteriormente
+

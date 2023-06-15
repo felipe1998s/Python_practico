@@ -1,0 +1,19 @@
+¿Que es una variable?
+Una variable es simplemente el contenedor de un valor.
+Es una forma de decirle a la computadora de que nos guarde un valor para luego usarlo.
+
+Python es un lenguaje dinámico, este concepto de privado y público se genera por convenciones del lenguaje. 
+
+--> En programación el signo = significa asignación. <--
+
+--> Si una variable esta en mayúscula, usualmente se refiere a una constante, no debería reasignarse. Es una convención.
+
+Reglas de Variables:
+
+Pueden contener números y letras
+No deben comenzar con número
+Múltiples palabras se unen con _
+No se pueden utilizar palabras reservadas
+Expresiones son instrucciones para el interprete para evaluar la expresión. Los enunciados tienen efectos dentro del programa, como print que genera un output.
+
+PEMDAS = Paréntesis, Exponente, Multiplicación-División, Adición-Sustracción

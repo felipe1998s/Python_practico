@@ -1,0 +1,48 @@
+Los strings o cadenas de textos tienen un comportamiento distinto a otros tipos como los booleanos, 
+enteros, floats. Las cadenas son secuencias de caracteres, todas se pueden acceder a través de un índice.
+
+Podemos saber la longitud de un string, cuántos caracteres se encuentran en esa secuencia. 
+Lo podemos saber con la built-in function global llamada len.
+
+Algo importante a tener en cuenta cuando hablamos de strings es que estos son inmutables, esto significa 
+que cada vez que modificamos uno estamos generando un nuevo objeto en memoria.
+
+El índice de la primera letra es 0, en la programación se empieza a contar desde 0
+
+-------------------------------------------------------------------------------------------------------
+
+Ejemplos en la consola - Python:
+
+>>> country = 'Colombia'
+>>> country[0]
+'C'
+>>> country[1]
+'o'
+>>> country[-1]
+'a'
+>>> country[-2]
+'i'
+>>> len(country)
+8 
+>>> first_letter = country[0]
+>>> first_letter
+'C'
+>>> id(country)
+1624229052656 <--- lugar en memoria 
+>>> id(first_letter)
+140717728628848 <--- lugar en memoria
+>>> other_var = country[0] <--- guardar la misma letra en otra variable
+>>> id(other_var)    <--- direccion en memoria donde vive la variable asignada      
+140717728628848 <--- es la misma direccion en memoria de first_letter
+
+**********************************************************************************
+
+>>> id('a')
+140717727515520
+>>> id('A')
+140717728628736
+|
+|------> en este ejemplo podemos observar que la representacion minuscula y 
+mayuscula de una misma letra viven oapuntan a direcciones distintas en memoria
+
+// los strings son inmutables por lo tanto si un string es modificado su direccion en memoria cambia...

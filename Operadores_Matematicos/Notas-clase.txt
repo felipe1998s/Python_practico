@@ -1,0 +1,32 @@
+¿Que son los operadores?
+R. Son los operadores matematicos que ya conocemos, suma, resta, division, multiplicacion etc...
+
+Los operadores son contextuales, dependen del tipo de valor.
+
+ejemplos: 
+
+1+2 = 3 <-- suma
+2-5 = -3 <-- resta
+10/4 = 2.5 <-- division 
+10//4 = 2 <-- division entera 
+10%4 = 2  <-- modulo 
+10*2 = 20 <-- Multiplicacion 
+2**8 = 256 <-- potencia
+¿Que son los valores?
+ R. Es una representacion de una entidad que pueden ser manipuladas por un programa.
+
+Ejemplos -- valores en python 
+
+type(5) ==> class 'init'
+
+type(5.5) ==> class 'float'
+
+type('Lucas') ==> class 'str'
+
+'a' + 'b' ==> 'ab' --> concatenacion
+
+'lucas' * 5 ==> 'lucaslucaslucaslucaslucas' <== generarcion de strings
+
+a = 5 <== adignar valores en una variable
+
+Nota: Investigar todos los operadores que hay en python 
